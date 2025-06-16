@@ -191,7 +191,7 @@ export default function HomePage() {
   const broadcasterSignupLink = "/api/redirect?to=" + encodeURIComponent("https://chaturbate.com/in/?tour=NwNd&campaign=RCJNu&track=default");
   const signupLink = "/api/redirect?to=" + encodeURIComponent("https://chaturbate.com/in/?tour=3Mc9&campaign=RCJNu&track=default&redirect_to_room=-welcomepage-");
   return (
-    <div className="min-h-screen flex flex-col bg-zinc-900 text-white">
+    <div className="min-h-screen flex flex-col bg-zinc-950 text-white">
       {/* Header */}
       <header className="bg-zinc-950 shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-3 flex flex-col md:flex-row md:items-center gap-2 md:gap-3">
@@ -242,7 +242,9 @@ export default function HomePage() {
           }}
           aria-hidden="true"
         />
-        <div className="max-w-7xl mx-auto px-6">
+        
+      </header>
+      <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-wrap gap-4 items-center justify-center py-2">
             <CountryDropdown
               countries={chaturbateCountries}
@@ -263,7 +265,6 @@ export default function HomePage() {
             aria-hidden="true"
           />
         </div>
-      </header>
       {/* TAG FILTER ROW */}
       {tagsReady && !!topTags.length && (
       <div className="flex flex-wrap gap-2 items-center justify-center py-2 bg-zinc-900">

@@ -113,6 +113,7 @@ export default function PartnersPage() {
                         <a href="https://www.acessosvip.com.br/" title="Acompanhantes SP, Acompanhantes São Paulo" target="_blank" rel="noopener">
                             <img src="https://www.acessosvip.com.br/parceiros/banner468x60.gif" alt="Acompanhantes SP, Acompanhantes São Paulo" width={468} height={60} />
                         </a>
+                        <a href="https://en.devozki.com/"><img alt="Devozki.com" src="https://en.devozki.com/wp-content/uploads/2020/09/devozkibanner468x60.png"/></a>
                     </div>
                 </div>
             </main>
