@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://us1-black.vercel.app
+
+# Sitemaps
+Sitemap: https://us1-black.vercel.app/sitemap.xml
