@@ -188,8 +188,8 @@ export default function HomePage() {
     }
   };
 
-  const broadcasterSignupLink = "/api/redirect?to=" + encodeURIComponent("https://chaturbate.com/in/?tour=NwNd&campaign=RCJNu&track=default");
-  const signupLink = "/api/redirect?to=" + encodeURIComponent("https://chaturbate.com/in/?tour=3Mc9&campaign=RCJNu&track=default&redirect_to_room=-welcomepage-");
+  const broadcasterSignupLink = "/api/redirect?to=" + encodeURIComponent("https://chaturbate.com/in/?tour=NwNd&campaign=iKKKt&track=default");
+  const signupLink = "/api/redirect?to=" + encodeURIComponent("https://chaturbate.com/in/?tour=3Mc9&campaign=iKKKt&track=default&redirect_to_room=-welcomepage-");
   return (
     <div className="min-h-screen flex flex-col bg-zinc-950 text-white">
       {/* Header */}

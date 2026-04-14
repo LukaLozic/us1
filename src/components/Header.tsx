@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export default function Header({ onLogoClick }: { onLogoClick?: () => void }) {
-  const broadcasterSignupLink = "https://chaturbate.com/in/?tour=NwNd&campaign=RCJNu&track=default";
-  const signupLink = "https://chaturbate.com/in/?tour=3Mc9&campaign=RCJNu&track=default&redirect_to_room=-welcomepage-";
+  const broadcasterSignupLink = "https://chaturbate.com/in/?tour=NwNd&campaign=iKKKt&track=default";
+  const signupLink = "https://chaturbate.com/in/?tour=3Mc9&campaign=iKKKt&track=default&redirect_to_room=-welcomepage-";
   
   return (
     <header className="bg-zinc-950 shadow-md sticky top-0 z-50">
