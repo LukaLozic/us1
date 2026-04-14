@@ -1,11 +1,11 @@
 // src/utils/api.ts
 import { Model } from '@/types/model'; // adjust path if needed
 
-const API_URL = 'https://chaturbate.com/api/public/affiliates/onlinerooms/?wm=RCJNu&client_ip=request_ip&format=json';
+const API_URL = 'https://chaturbate.com/api/public/affiliates/onlinerooms/?wm=iKKKt&client_ip=request_ip&format=json';
 
 export async function fetchModels(): Promise<Model[]> {
   try {
-    const res = await fetch('https://chaturbate.com/api/public/affiliates/onlinerooms/?wm=RCJNu&client_ip=request_ip&format=json');
+    const res = await fetch('https://chaturbate.com/api/public/affiliates/onlinerooms/?wm=iKKKt&client_ip=request_ip&format=json');
 
     if (!res.ok) {
       throw new Error(`HTTP error! status: ${res.status}`);

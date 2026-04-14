@@ -18,7 +18,7 @@ const fetchModelBatch = async (
   limit: number,
   genderCode: string | null
 ): Promise<Model[]> => {
-  let url = `https://chaturbate.com/api/public/affiliates/onlinerooms/?wm=RCJNu&format=json&limit=${limit}&offset=${offset}&client_ip=request_ip`;
+  let url = `https://chaturbate.com/api/public/affiliates/onlinerooms/?wm=iKKKt&format=json&limit=${limit}&offset=${offset}&client_ip=request_ip`;
   if (genderCode) url += `&gender=t`;
   const res = await fetch(url);
   const data = await res.json();
@@ -26,7 +26,7 @@ const fetchModelBatch = async (
 };
 
 const getAffiliateModelLink = (username: string) => {
-  const campaign = "RCJNu";
+  const campaign = "iKKKt";
   const tour = "LQps";
   const track = "tslive";
   return `https://chaturbate.com/${username}/?campaign=${campaign}&tour=${tour}&track=${track}&join_overlay=1&signup_notice=1&room=${username}`;
